@@ -123,14 +123,14 @@
       "id": "9b141d45-a5f3-4897-8f2e-9c3b692c0de2",
       "position": [
         0,
-        0.09331426825958139,
-        -2.071992982956714e-17
+        0,
+        -0.09331426825958139
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -139,8 +139,14 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
-      "components": {},
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "5257c6b9-7d66-4aed-8775-54a42baa3eba": {
+          "id": "5257c6b9-7d66-4aed-8775-54a42baa3eba",
+          "name": "Cambiar Animacion",
+          "parameters": {}
+        }
+      },
       "gltfModel": {
         "src": {
           "type": "asset",
@@ -150,7 +156,7 @@
         "loop": true
       },
       "name": "Avatar_Final.glb",
-      "order": 6.503634905639375
+      "order": 8.792897540448894
     },
     "3e9234f3-19cb-4b34-b69a-599a15fdad52": {
       "id": "3e9234f3-19cb-4b34-b69a-599a15fdad52",
