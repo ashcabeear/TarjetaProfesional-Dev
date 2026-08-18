@@ -91,39 +91,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "ec6e3941-b605-4935-bb84-a578ad0873ec": {
-      "id": "ec6e3941-b605-4935-bb84-a578ad0873ec",
-      "position": [
-        0,
-        0.09475108103317599,
-        -2.103896635423119e-17
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.30000000000000004,
-        0.30000000000000004,
-        0.30000000000000004
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model.glb",
-      "order": 2.7423396637403634
-    },
     "0f322d9e-9cea-49f5-9d03-8bb94e6ef436": {
       "id": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
       "position": [
@@ -151,6 +118,39 @@
         "name": "Tarjeta_Frente"
       },
       "order": 4.581187931999687
+    },
+    "9b141d45-a5f3-4897-8f2e-9c3b692c0de2": {
+      "id": "9b141d45-a5f3-4897-8f2e-9c3b692c0de2",
+      "position": [
+        0,
+        0.09331426825958139,
+        -2.071992982956714e-17
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Avatar_Final.glb"
+        },
+        "animationClip": "Dance",
+        "loop": true
+      },
+      "name": "Avatar_Final.glb",
+      "order": 6.503634905639375
     }
   },
   "spaces": {
