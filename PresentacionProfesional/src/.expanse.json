@@ -45,19 +45,19 @@
       "name": "Camera",
       "position": [
         0,
-        0.825282376980947,
-        0.6515022329264886
+        1.1031617623819192,
+        1.3438796872810217
       ],
       "rotation": [
-        0.00044368872331410124,
-        0.9659425615285845,
-        -0.25875089860082223,
-        0.0016563336561801576
+        2.670917155886373e-18,
+        0.9990482215818578,
+        -0.043619387365335875,
+        6.117406033770385e-17
       ],
       "scale": [
-        1,
-        1,
-        1
+        1.0000000000000027,
+        0.9999999999999999,
+        1.000000000000003
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -151,6 +151,159 @@
       },
       "name": "Avatar_Final.glb",
       "order": 6.503634905639375
+    },
+    "3e9234f3-19cb-4b34-b69a-599a15fdad52": {
+      "id": "3e9234f3-19cb-4b34-b69a-599a15fdad52",
+      "position": [
+        0,
+        -0.00009419041127500805,
+        -0.004601316555085888
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.9999999999999994,
+        0.3636363636363634,
+        0.9999999999999998
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Video_Trabajos.mp4"
+        }
+      },
+      "parentId": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
+      "components": {},
+      "name": "Video",
+      "order": -0.9567086110085443,
+      "videoControls": {}
+    },
+    "f33a9b6f-692e-44ed-b5eb-283b68b9bc34": {
+      "id": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
+      "position": [
+        0,
+        0.593,
+        -0.6703954986463813
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        4.3999999999999995,
+        2.3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "a0367b43-0ff2-4f9d-88dc-5333eafd0452": {
+          "id": "a0367b43-0ff2-4f9d-88dc-5333eafd0452",
+          "name": "Pausar Video",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "3e9234f3-19cb-4b34-b69a-599a15fdad52"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#516584",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0
+      },
+      "name": "Button",
+      "order": 7.0373769522674285
+    },
+    "385829b8-6f1e-4252-936f-fa18bfa00cd5": {
+      "id": "385829b8-6f1e-4252-936f-fa18bfa00cd5",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
+      "components": {},
+      "name": "Icon",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "url",
+          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
+        },
+        "backgroundOpacity": 1
+      },
+      "order": 0.2645312577532544
+    },
+    "bc0eaa57-808f-4132-add5-4eb1b77ff22f": {
+      "id": "bc0eaa57-808f-4132-add5-4eb1b77ff22f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Button",
+        "color": "#ffffff",
+        "fontSize": 16
+      },
+      "order": 1.1740814967859876
     }
   },
   "spaces": {
