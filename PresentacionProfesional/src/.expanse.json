@@ -32,9 +32,10 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -44,11 +45,11 @@
       "name": "Camera",
       "position": [
         0,
-        2,
-        3
+        0.825282376980947,
+        0.6515022329264886
       ],
       "rotation": [
-        0.0004436887233141012,
+        0.00044368872331410124,
         0.9659425615285845,
         -0.25875089860082223,
         0.0016563336561801576
@@ -93,24 +94,24 @@
     "ec6e3941-b605-4935-bb84-a578ad0873ec": {
       "id": "ec6e3941-b605-4935-bb84-a578ad0873ec",
       "position": [
-        -0.0362199407789463,
         0,
-        0.6147587704650626
+        0.09475108103317599,
+        -2.103896635423119e-17
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.30000000000000004,
+        0.30000000000000004,
+        0.30000000000000004
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
       "components": {},
       "gltfModel": {
         "src": {
@@ -122,6 +123,34 @@
       },
       "name": "model.glb",
       "order": 2.7423396637403634
+    },
+    "0f322d9e-9cea-49f5-9d03-8bb94e6ef436": {
+      "id": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Image Target",
+      "imageTarget": {
+        "name": "Tarjeta_Frente"
+      },
+      "order": 4.581187931999687
     }
   },
   "spaces": {

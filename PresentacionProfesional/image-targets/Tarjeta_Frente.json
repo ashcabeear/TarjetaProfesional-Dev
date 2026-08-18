@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 50,
+    "left": 0,
+    "width": 640,
+    "height": 853,
+    "isRotated": true,
+    "originalWidth": 640,
+    "originalHeight": 954
+  },
+  "imagePath": "image-targets/Tarjeta_Frente_luminance.jpg",
+  "metadata": null,
+  "name": "Tarjeta_Frente",
+  "resources": {
+    "originalImage": "Tarjeta_Frente_original.jpg",
+    "croppedImage": "Tarjeta_Frente_cropped.jpg",
+    "thumbnailImage": "Tarjeta_Frente_thumbnail.jpg",
+    "luminanceImage": "Tarjeta_Frente_luminance.jpg"
+  },
+  "created": 1787021637998,
+  "updated": 1787021637998
+}
