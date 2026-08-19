@@ -8,10 +8,9 @@ ecs.registerComponent({
       .initial()
       .listen(eid, ecs.input.UI_CLICK, () => {
 
-        window.open(
-          'https://wa.me/573106919975',
-          '_blank'
-        )
+        console.log('WHATSAPP CLICK')
+
+        window.location.href = 'https://wa.me/573106919975'
 
       })
   },
