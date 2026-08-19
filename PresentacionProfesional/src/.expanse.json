@@ -267,8 +267,8 @@
       "material": null,
       "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
       "components": {
-        "26ec3833-a0c1-487e-a4a5-a070f3473649": {
-          "id": "26ec3833-a0c1-487e-a4a5-a070f3473649",
+        "a4b212bd-701f-470a-98bf-7f7a6b7d6c91": {
+          "id": "a4b212bd-701f-470a-98bf-7f7a6b7d6c91",
           "name": "WhatsAppButton",
           "parameters": {}
         }

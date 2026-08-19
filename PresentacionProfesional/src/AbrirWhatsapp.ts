@@ -11,7 +11,7 @@ ecs.registerComponent({
         console.log('BUTTON CLICKED')
 
         window.location.href =
-          'https://wa.me/573001234567'
+          'https://wa.me/573106919975'
 
       })
   },
