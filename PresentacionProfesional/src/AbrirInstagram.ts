@@ -1,7 +1,7 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
-  name: 'WhatsAppButton',
+  name: 'InstagramButton',
 
   stateMachine: ({eid}) => {
     ecs.defineState('default')
@@ -11,7 +11,7 @@ ecs.registerComponent({
         console.log('Opening WhatsApp')
 
         window.open(
-          'https://wa.me/573001234567',
+          'https://www.instagram.com/ashleybean.md/',
           '_blank'
         )
       })

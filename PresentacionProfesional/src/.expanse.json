@@ -45,19 +45,19 @@
       "name": "Camera",
       "position": [
         0,
-        0.7917815323049642,
+        0.8727525991111555,
         0.9682116312723044
       ],
       "rotation": [
-        2.670917155886378e-18,
+        2.6709171558863786e-18,
         0.9990482215818578,
-        -0.04361938736533581,
-        6.117406033770381e-17
+        -0.043619387365335806,
+        6.11740603377038e-17
       ],
       "scale": [
         1.0000000000000027,
         0.9999999999999999,
-        1.0000000000000058
+        1.000000000000006
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 1.0308214152219775
@@ -123,14 +123,14 @@
       "id": "9b141d45-a5f3-4897-8f2e-9c3b692c0de2",
       "position": [
         0,
-        0,
-        -0.09331426825958139
+        0.09331426825958133,
+        2.0132467509546418e-16
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         0.4,
@@ -139,7 +139,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
       "components": {
         "5257c6b9-7d66-4aed-8775-54a42baa3eba": {
           "id": "5257c6b9-7d66-4aed-8775-54a42baa3eba",
@@ -156,7 +156,7 @@
         "loop": true
       },
       "name": "Avatar_Final.glb",
-      "order": 8.019479572036792
+      "order": 9.211950710621256
     },
     "3e9234f3-19cb-4b34-b69a-599a15fdad52": {
       "id": "3e9234f3-19cb-4b34-b69a-599a15fdad52",
@@ -242,7 +242,7 @@
         "justifyContent": "center",
         "opacity": 0
       },
-      "name": "Button",
+      "name": "PausarVideo",
       "order": 7.4691010706212095
     },
     "385829b8-6f1e-4252-936f-fa18bfa00cd5": {
@@ -314,27 +314,27 @@
     "f876f34a-bebc-45a7-94f3-7170c61e31b0": {
       "id": "f876f34a-bebc-45a7-94f3-7170c61e31b0",
       "position": [
-        0,
-        1.5228219582295717,
-        -0.5679411192828887
+        -0.19285257528640135,
+        0.09299999999999999,
+        0.0807539426833389
       ],
       "rotation": [
+        0.7071067811865475,
         0,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        0.5,
-        0.5,
-        0.5
+        0.3,
+        0.3,
+        0.3
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
       "components": {
-        "82d9216f-c7c3-4ca0-9518-0a942606e705": {
-          "id": "82d9216f-c7c3-4ca0-9518-0a942606e705",
+        "bf59cf91-ec86-4cec-9959-cc41de794f34": {
+          "id": "bf59cf91-ec86-4cec-9959-cc41de794f34",
           "name": "WhatsAppButton",
           "parameters": {}
         }
@@ -357,8 +357,106 @@
         },
         "backgroundSize": "contain"
       },
-      "name": "Button",
-      "order": 6.548188202749133
+      "name": "Whatsapp",
+      "order": 5.194775954759251
+    },
+    "edc58845-bc3b-4667-ad6c-1480d26a59fa": {
+      "id": "edc58845-bc3b-4667-ad6c-1480d26a59fa",
+      "position": [
+        -0.19655179288735483,
+        0.09291700586370516,
+        0.2109305580584499
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.29999999999999993,
+        0.29999999999999993,
+        0.29999999999999993
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "components": {
+        "1b653334-01c2-4785-9f84-6fc3eef65575": {
+          "id": "1b653334-01c2-4785-9f84-6fc3eef65575",
+          "name": "InstagramButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/instagram.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Instagram",
+      "order": 6.971941649970404
+    },
+    "a7bb5d6e-1b61-4674-8dc0-630d51534bbb": {
+      "id": "a7bb5d6e-1b61-4674-8dc0-630d51534bbb",
+      "position": [
+        -0.17475028106689244,
+        0.0958031746028574,
+        0.3471644341522776
+      ],
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "components": {
+        "a9b6e693-c399-4b7e-b501-2086f1be90f3": {
+          "id": "a9b6e693-c399-4b7e-b501-2086f1be90f3",
+          "name": "TikTokmButton",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/tik-tok.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "TikTok",
+      "order": 6.7233419975665445
     }
   },
   "spaces": {
