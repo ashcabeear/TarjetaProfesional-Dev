@@ -8,12 +8,11 @@ ecs.registerComponent({
       .initial()
       .listen(eid, ecs.input.UI_CLICK, () => {
 
-        console.log('Opening WhatsApp')
+        console.log('BUTTON CLICKED')
 
-        window.open(
-          'https://www.instagram.com/ashleybean.md/',
-          '_blank'
-        )
+        window.location.href =
+          'https://www.instagram.com/ashleybean.md/'
+
       })
   },
 })
