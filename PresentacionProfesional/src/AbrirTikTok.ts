@@ -1,19 +1,18 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
-  name: 'TikTokmButton',
+  name: 'TikTokButton',
 
   stateMachine: ({eid}) => {
     ecs.defineState('default')
       .initial()
       .listen(eid, ecs.input.UI_CLICK, () => {
 
-        console.log('Opening WhatsApp')
+        console.log('BUTTON CLICKED')
 
-        window.open(
-          'https://www.tiktok.com/@ashleybean.md',
-          '_blank'
-        )
+        window.location.href =
+          'https://www.tiktok.com/@ashleybean.md'
+
       })
   },
 })
