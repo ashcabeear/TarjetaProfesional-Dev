@@ -198,7 +198,7 @@
     "f33a9b6f-692e-44ed-b5eb-283b68b9bc34": {
       "id": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
       "position": [
-        0,
+        0.7516978703137354,
         0.6703954986463815,
         0.5929999999999999
       ],
@@ -245,93 +245,27 @@
       "name": "PausarVideo",
       "order": 7.4691010706212095
     },
-    "385829b8-6f1e-4252-936f-fa18bfa00cd5": {
-      "id": "385829b8-6f1e-4252-936f-fa18bfa00cd5",
-      "position": [
-        -0.323,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
-      "components": {},
-      "name": "Icon",
-      "ui": {
-        "width": 16,
-        "height": 16,
-        "image": {
-          "type": "url",
-          "url": "https://cdn.8thwall.com/web/assets/sprites/8w-icon-m8j35d7y.png"
-        },
-        "backgroundOpacity": 1
-      },
-      "order": 0.2645312577532544
-    },
-    "bc0eaa57-808f-4132-add5-4eb1b77ff22f": {
-      "id": "bc0eaa57-808f-4132-add5-4eb1b77ff22f",
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "f33a9b6f-692e-44ed-b5eb-283b68b9bc34",
-      "components": {},
-      "name": "Text",
-      "ui": {
-        "width": 50,
-        "height": 14,
-        "text": "Button",
-        "color": "#ffffff",
-        "fontSize": 16
-      },
-      "order": 1.1740814967859876
-    },
     "f876f34a-bebc-45a7-94f3-7170c61e31b0": {
       "id": "f876f34a-bebc-45a7-94f3-7170c61e31b0",
       "position": [
-        -0.19285257528640135,
-        0.09299999999999999,
-        0.0807539426833389
+        -0.45009863303783,
+        0.291354490090474,
+        -0.09299999999999997
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
-        0.3,
-        0.3,
-        0.3
+        0.6,
+        0.6,
+        0.6
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "bf59cf91-ec86-4cec-9959-cc41de794f34": {
           "id": "bf59cf91-ec86-4cec-9959-cc41de794f34",
@@ -358,29 +292,29 @@
         "backgroundSize": "contain"
       },
       "name": "Whatsapp",
-      "order": 5.194775954759251
+      "order": 7.6636143671241275
     },
     "edc58845-bc3b-4667-ad6c-1480d26a59fa": {
       "id": "edc58845-bc3b-4667-ad6c-1480d26a59fa",
       "position": [
-        -0.19655179288735483,
-        0.09291700586370516,
-        0.2109305580584499
+        -0.4429124953289031,
+        0.6376479946866962,
+        -0.09291700586370512
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
-        0.29999999999999993,
-        0.29999999999999993,
-        0.29999999999999993
+        0.6,
+        0.6,
+        0.6
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "1b653334-01c2-4785-9f84-6fc3eef65575": {
           "id": "1b653334-01c2-4785-9f84-6fc3eef65575",
@@ -407,29 +341,29 @@
         "backgroundSize": "contain"
       },
       "name": "Instagram",
-      "order": 6.971941649970404
+      "order": 6.312915919194575
     },
     "a7bb5d6e-1b61-4674-8dc0-630d51534bbb": {
       "id": "a7bb5d6e-1b61-4674-8dc0-630d51534bbb",
       "position": [
-        -0.17475028106689244,
-        0.0958031746028574,
-        0.3471644341522776
+        -0.428502939866033,
+        1.057527974099667,
+        -0.09580317460285731
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
-        0.3,
-        0.3,
-        0.3
+        0.6000000000000001,
+        0.6000000000000001,
+        0.6000000000000001
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "a9b6e693-c399-4b7e-b501-2086f1be90f3": {
           "id": "a9b6e693-c399-4b7e-b501-2086f1be90f3",
@@ -456,7 +390,7 @@
         "backgroundSize": "contain"
       },
       "name": "TikTok",
-      "order": 6.7233419975665445
+      "order": 8.936204409844267
     }
   },
   "spaces": {
