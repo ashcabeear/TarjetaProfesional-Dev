@@ -353,6 +353,48 @@
       },
       "name": "Whatsapp",
       "order": 10.113657883762766
+    },
+    "9e523307-008b-46f3-af62-a3fa42c8297c": {
+      "id": "9e523307-008b-46f3-af62-a3fa42c8297c",
+      "position": [
+        0,
+        1.462416207345198,
+        -0.3766027380944945
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "8fe87e49-4434-4251-802b-4bf7480f0c2b": {
+          "id": "8fe87e49-4434-4251-802b-4bf7480f0c2b",
+          "name": "Abrir WhatsApp",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 100,
+        "image": {
+          "type": "asset",
+          "asset": "assets/whatsapp.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "name": "Image",
+      "order": 6.34884477925517
     }
   },
   "spaces": {

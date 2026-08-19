@@ -3,18 +3,16 @@ import * as ecs from '@8thwall/ecs'
 ecs.registerComponent({
   name: 'Abrir WhatsApp',
 
-  add: (world, component) => {
-    world.events.addListener(
-      component.eid,
-      ecs.input.SCREEN_TOUCH_START,
-      () => {
-        console.log('WhatsApp clicked!')
+  stateMachine: ({eid}) => {
+    ecs.defineState('default')
+      .initial()
+      .listen(eid, ecs.input.UI_CLICK, () => {
 
         window.open(
-          'https://wa.me/573001234567',
+          'https://wa.me/573106919975',
           '_blank'
         )
-      }
-    )
+
+      })
   },
 })
