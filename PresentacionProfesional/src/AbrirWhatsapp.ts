@@ -1,18 +1,17 @@
 import * as ecs from '@8thwall/ecs'
 
 ecs.registerComponent({
-  name: 'Abrir WhatsApp',
+  name: 'WhatsAppButton',
 
-  stateMachine: ({eid}) => {
+  stateMachine: ({world, eid}) => {
     ecs.defineState('default')
       .initial()
       .listen(eid, ecs.input.UI_CLICK, () => {
-
-        window.open(
-          'https://wa.me/573106919975',
-          '_blank'
-        )
-
+        console.log('WHATSAPP BUTTON CLICKED')
+        
+        ecs.Ui.set(world, eid, {
+          opacity: 0.5,
+        })
       })
   },
 })

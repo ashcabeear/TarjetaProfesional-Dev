@@ -123,14 +123,14 @@
       "id": "9b141d45-a5f3-4897-8f2e-9c3b692c0de2",
       "position": [
         0,
-        0.09331426825958139,
-        -2.071992982956714e-17
+        0,
+        -0.09331426825958139
       ],
       "rotation": [
-        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0,
+        1
       ],
       "scale": [
         0.4,
@@ -139,7 +139,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
         "5257c6b9-7d66-4aed-8775-54a42baa3eba": {
           "id": "5257c6b9-7d66-4aed-8775-54a42baa3eba",
@@ -156,7 +156,7 @@
         "loop": true
       },
       "name": "Avatar_Final.glb",
-      "order": 8.792897540448894
+      "order": 8.019479572036792
     },
     "3e9234f3-19cb-4b34-b69a-599a15fdad52": {
       "id": "3e9234f3-19cb-4b34-b69a-599a15fdad52",
@@ -311,55 +311,12 @@
       },
       "order": 1.1740814967859876
     },
-    "f92db6c2-88e0-43dd-8f3d-e5abfd1f58f4": {
-      "id": "f92db6c2-88e0-43dd-8f3d-e5abfd1f58f4",
+    "f876f34a-bebc-45a7-94f3-7170c61e31b0": {
+      "id": "f876f34a-bebc-45a7-94f3-7170c61e31b0",
       "position": [
         0,
-        0.6447978079566733,
-        1.5248976895909014
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.2,
-        0.2,
-        0.2
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#FFFFFF",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/whatsapp.png"
-        },
-        "blending": "additive"
-      },
-      "parentId": "0f322d9e-9cea-49f5-9d03-8bb94e6ef436",
-      "components": {
-        "dce6cd41-8352-4a79-800c-ac6dd343e86d": {
-          "id": "dce6cd41-8352-4a79-800c-ac6dd343e86d",
-          "name": "Abrir WhatsApp",
-          "parameters": {}
-        }
-      },
-      "name": "Whatsapp",
-      "order": 10.113657883762766
-    },
-    "9e523307-008b-46f3-af62-a3fa42c8297c": {
-      "id": "9e523307-008b-46f3-af62-a3fa42c8297c",
-      "position": [
-        0,
-        1.462416207345198,
-        -0.3766027380944945
+        1.5228219582295717,
+        -0.5679411192828887
       ],
       "rotation": [
         0,
@@ -368,33 +325,40 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.5,
+        0.5,
+        0.5
       ],
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
-        "8fe87e49-4434-4251-802b-4bf7480f0c2b": {
-          "id": "8fe87e49-4434-4251-802b-4bf7480f0c2b",
-          "name": "Abrir WhatsApp",
+        "82d9216f-c7c3-4ca0-9518-0a942606e705": {
+          "id": "82d9216f-c7c3-4ca0-9518-0a942606e705",
+          "name": "WhatsAppButton",
           "parameters": {}
         }
       },
       "ui": {
         "type": "3d",
         "width": 100,
-        "height": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
         "image": {
           "type": "asset",
           "asset": "assets/whatsapp.png"
         },
-        "backgroundOpacity": 1,
         "backgroundSize": "contain"
       },
-      "name": "Image",
-      "order": 6.34884477925517
+      "name": "Button",
+      "order": 6.548188202749133
     }
   },
   "spaces": {
